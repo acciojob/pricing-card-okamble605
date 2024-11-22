@@ -1,1 +1,67 @@
 /*  your css code here. If applicable */
+/* Global styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Styling for the pricing card */
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Styling for the image */
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Styling for the card title */
+.card-title {
+    font-size: 24px;
+    margin: 20px 0 10px;
+    color: #333;
+}
+
+/* Styling for the price */
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Styling for the description */
+.description {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Styling for the "Buy Now" button */
+.buy-now {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for the "Buy Now" button */
+.buy-now:hover {
+    background-color: #45a049;
+}
